@@ -1,4 +1,4 @@
-# Scrape-evals: an evaluation framework for web scraping engines
+# scrape-evals: an evaluation framework for web scraping engines
 
 Scrape-evals is an evaluation framework for web scraping engines ("engines") that benchmarks quality and robustness on a fixed dataset. We focus on: (1) whether an engine successfully retrieves page content (Coverage/Success Rate); and (2) how well the retrieved content captures a human-curated core snippet while avoiding noise (Recall/Precision/F1). The F1 score measures content quality by balancing how much important content is captured (recall) against how much irrelevant content is filtered out (precision). In our results, we refer to the F1 score as "quality" for simplicity.
 
