@@ -99,11 +99,12 @@ python run_all.py \
 
 ## Metrics
 
-- **Coverage (Success Rate)**: true when HTTP 2xx/3xx, non-empty content with `content_size>0`, and not a known block page (e.g., Cloudflare). Empty `truth_text`/`lie_text` rows force `success=false`.
-- **Snippet quality metrics** (evaluated on the best local window with length ≈ `truth_text`):
-  - `recall`: fraction of core tokens found
-  - `precision`: fraction of window tokens that are core
-  - `f1` (quality): harmonic mean of recall and precision
+- Coverage (Success Rate): Indicates successful content retrieval when the response returns a valid HTTP status (2xx/3xx), contains substantive content (content_size>0), and represents actual page content rather than access intermediary pages. Rows requiring specific validation text are marked unsuccessful when that text is unavailable.
+Snippet Quality Metrics (evaluated on the optimal content window matching the expected text length):
+
+- Recall: Proportion of expected content successfully captured
+Precision: Proportion of captured content that matches expected material
+F1 Score: Balanced measure combining recall and precision for overall content quality
 
 ## Reproducibility
 
