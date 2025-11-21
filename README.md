@@ -2,7 +2,7 @@
 
 Scrape-Evals is an evaluation framework for web scraping engines ("engines") that benchmarks quality and robustness on a fixed dataset. We focus on: (1) whether an engine successfully retrieves page content (Coverage/Success Rate); and (2) how well the retrieved content captures a human-curated core snippet while avoiding noise (Recall/Precision/F1). The F1 score measures content quality by balancing how much important content is captured (recall) against how much irrelevant content is filtered out (precision). In our results, we refer to the F1 score as "quality" for simplicity.
 
-This framework supports APIs for Firecrawl, Apify, ScraperAPI, ScrapingBee, Zyte, and more but also some self-hosted engines like Crawl4AI, Playwright, Puppeteer, Rest, Scrapy, and Selenium. Additional APIs can be easily integrated.
+This framework supports APIs for Firecrawl, Apify, ScraperAPI, ScrapingBee, Zyte, and more but also some self-hosted engines like Crawl4AI, Playwright, Puppeteer, Rest, Scrapy ScrapegraphAi, and Selenium. Additional APIs can be easily integrated.
 
 ## Results
 
@@ -10,7 +10,8 @@ Below are evaluation results across different engines.
 
 | Engine	        | Coverage (Success Rate) (%)	| Quality (F1) |
 |-----------------|-----------------------------|--------------|
-| Firecrawl	      | 80.9	                      | 0.68         |
+| ScrapegraphAi	  | 82.5	                      | 0.60         |
+| Firecrawl	      | 80.9	                      | 0.65         |
 | Exa	            | 76.3	                      | 0.53         |
 | Tavily	        | 67.6	                      | 0.50         |
 | ScraperAPI	    | 63.5	                      | 0.45         |
