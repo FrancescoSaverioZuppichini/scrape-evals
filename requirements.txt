@@ -12,4 +12,5 @@ selenium
 exa-py
 tavily-python
 plotly
-nbformat
+nbformatscrapegraph-py
+scrapegraph-py
