@@ -11,7 +11,7 @@ Below are evaluation results across different engines.
 | Engine	        | Coverage (Success Rate) (%)	| Quality (F1) |
 |-----------------|-----------------------------|--------------|
 | ScrapegraphAi	  | 82.5	                      | 0.61         |
-| Firecrawl	      | 80.9	                      | 0.65         |
+| Firecrawl	      | 81.6	                      | 0.66         |
 | Exa	            | 76.3	                      | 0.53         |
 | Tavily	        | 67.6	                      | 0.50         |
 | ScraperAPI	    | 63.5	                      | 0.45         |
